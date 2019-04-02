@@ -1,0 +1,12 @@
+"use strict"
+var second = 1;
+var hour = 3600*second;
+var day = 24*hour;
+alert(`Количество секунд в часе ` + hour);
+alert(`Количество секунд в сутках ` + day);
+var countOfMonthDay = prompt('Введите количество дней в месяце');
+while((countOfMonthDay != 28) && (countOfMonthDay != 29) && (countOfMonthDay != 30) && (countOfMonthDay != 31)){
+    month = prompt('Введите правильное количество дней в месяце')
+}
+var month = countOfMonthDay*day;
+alert(`Количество секунд в месяце ` + month);

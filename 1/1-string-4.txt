@@ -1,0 +1,9 @@
+"use strict"
+var number = 1;
+number += 12;
+number -= 14;
+number *= 5;
+number /= 7;
+number += 1;
+number -= 1;
+alert(number);
