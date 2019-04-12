@@ -1,0 +1,18 @@
+"use strict"
+for(var i=1;i<=100;i++){
+    if((i%3==0)&&(i%5==0)){
+        console.log(`трипять`);
+           
+    }
+    else if(i%5==0){
+        console.log(`пять`);
+    }
+    else if(i%3 == 0){
+        console.log(`три`);
+        
+    }
+    else{
+        console.log(i);
+        
+    }
+}

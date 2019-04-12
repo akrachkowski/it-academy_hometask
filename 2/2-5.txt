@@ -1,0 +1,20 @@
+"use strict"
+var numberOfPeople = parseInt(prompt(`Введите количество людей`));
+var oldestAge = 0;
+var sumAge = 0;
+var youngestAge = 9999;
+for(var i=1; i<=numberOfPeople;i++){
+    var age = parseFloat(prompt(`Введите возраст ${i}-го человека`));
+    
+    if (youngestAge>age){
+        youngestAge = age;
+    }
+    if(oldestAge<age){
+        oldestAge = age;
+    }
+    sumAge+=age;
+}
+var averageAge = sumAge/(i-1);
+console.log(`Самому старшему человеку - ${oldestAge}`);
+console.log(`Самому младшему человеку - ${youngestAge}`);
+console.log(`Средний возраст - ${averageAge}`);

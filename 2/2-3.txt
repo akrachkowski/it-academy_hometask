@@ -1,0 +1,12 @@
+"use strict"
+var a = parseFloat(prompt(`Enter a`));
+var b = parseFloat(prompt(`Enter b`));
+function sum(a,b){
+    if (a<b){
+        return console.log(a+b);
+    }
+    else{
+        console.log(`Need a < b`);
+    }
+}
+sum(a,b);
