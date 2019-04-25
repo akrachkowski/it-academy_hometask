@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Хранилище Напитков</title>
+    <script type="text/javascript" src="./hash-storage.js"></script>
+    <script type="text/javascript" src="./drink-storage.js" defer></script>
+</head>
+
+<body>
+    <h1>Хранилище Напитков</h1>
+    <label>Название напитка</label>: <input id="drink-name" type="text" />
+    <br /><br />
+    <label>Информация о напитке</label>: <input id="drink-info" type="text" />
+    <br /><br />
+    <label>Алкогольный напиток</label>: <input id="drink-alco" type="checkbox" />
+    <br /><br />
+    <label>Рецепт напитка</label>: <input id="drink-description" type="text" />
+    <br /><br />
+    <button id="add-drink">Добавить напиток</button>
+    <button id="get-drink">Найти напиток</button>
+    <button id="delete-drink">Удалить напиток</button>
+    <button id="get-all-drinks">Показать все напитки</button>
+    <br /><br />
+    <label id="all-drinks"></label>
+</body>
+
+</html>
